@@ -36,6 +36,7 @@ def over?(board)
 end
 
 def winner (board)
+<<<<<<< HEAD
   if won?(board)
     win_index = won?(board)
     return board[win_index[0]]
@@ -43,4 +44,9 @@ def winner (board)
     return nil
   end
 end
+=======
+    win_index = won?(board)
+    return board[0]
+    
+>>>>>>> ed8396f07fba2c1e1a781b1cdbf19e32e678a8b4
     
