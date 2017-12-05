@@ -45,8 +45,7 @@ def winner (board)
   end
 end
 =======
-    win_index = won?(board)
-    return board[0]
+    
     
 >>>>>>> ed8396f07fba2c1e1a781b1cdbf19e32e678a8b4
     
